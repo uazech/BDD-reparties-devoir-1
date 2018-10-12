@@ -1,0 +1,10 @@
+{
+  "name": "BDD-reparties-exercice-2",
+  "version": "0.0.1",
+  "description": "Algorithme de pageRank",
+  "main": "mapReduce.js",
+  "author": "Baptiste Chezaubernard",
+  "dependencies": {
+    "mongodb": "latest"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "BDD-reparties-exercice-1",
+  "version": "0.0.1",
+  "description": "Algorithme effecutant un mapReduce sur les sorts insérés à l'aide du programme java",
+  "main": "mapReduce.js",
+  "author": "Baptiste Chezaubernard",
+  "dependencies": {
+    "mongodb": "latest"
+  }
+}
