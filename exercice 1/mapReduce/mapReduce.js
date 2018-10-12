@@ -39,7 +39,7 @@ MongoClient.connect(
       }
 
       if (isWizardLevel4 && isVerbalSpell) {
-        emit(this.name, 1);
+        emit({ id: this._id, name: this.name }, 1);
       }
     };
 
@@ -57,8 +57,10 @@ MongoClient.connect(
     // Appel de l'algorithme mapReduce de MongoDB
     sorts.mapReduce(map, reduce, { out: { inline: 1 } }, function(err, result) {
       if (err) throw err;
+      console.log("resultats trouvés : ");
       console.log(result);
-      db.close;
+      console.log("fin du programme");
+      db.close();
     });
   }
 );
